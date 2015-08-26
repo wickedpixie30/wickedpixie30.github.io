@@ -1,0 +1,190 @@
+/* main.css*/
+/* ----- text ---*/
+h1{
+	font-family: 'Oswald', sans-serif;
+}
+
+h2{
+	font-family: 'Josefin Slab', serif; 
+	color: #19bca2
+
+}
+
+h3{
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif; 
+	color: #000000;
+
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+/*-------------------------*/
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#header {
+	
+	padding:20px;
+	width:100%;
+	position:relative;
+}
+#content {
+	width: 100%;
+	padding:0px;
+	/*padding-bottom:80px;  Height of the footer element */
+}
+#footer {
+	background:#ffffff;
+	width:100%;
+	height:50px;
+	position:relative;
+	bottom:0;
+	left:0;
+}
+
+
+.img-center{
+	clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+/*------Navigation BAr ----- */
+
+a{
+display: inline;
+color: #000000;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif; 
+	font-style: italic;
+}
+
+
+nav{
+	width:100%;
+}
+.header-text>h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+	font-style: none;
+}
+
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+	display: inline;
+	
+}
+
+.navigationBar>li>a{
+	color: #000000;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif; 
+	font-style: italic;
+}
+
+.navigationBar>li>a:hover{
+	text-decoration: none;
+	color: #FF1493;
+}
+
+.navigationBar>li>a:active{
+	color: #FF1493;
+}
+
+/*-------- circle image -----*/
+.img-circle{
+	width: 400px;
+    height: 400px;
+    background: #E6E7ED;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    position:relative;
+}
+
+
+.img-circle img {
+ position: absolute;
+    margin: 20px 0 0 20px;
+    top: -(half of image hegiht)px;
+    left: -(half of image width)px;
+}
+
+.text-wrapper{
+	max-width:900px;
+}
+
+/*-------- Homepage images/projects --------*/
+
+.project-links>a>img:hover{
+	border:2px solid #19bca2;
+}
+
+/*---- project purchase button ----*/
+h4{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.purchase>a{
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    border-radius: 0.3em;
+    background-color: #19bca2;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 430px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+}
+.purchase>a:hover{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+/*-------- subscribe button -------------*/
+label{
+font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+
+.button{
+	background-color: #19bca2;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid #19bca2;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+
+}
