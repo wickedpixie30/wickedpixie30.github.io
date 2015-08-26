@@ -99,7 +99,21 @@ li{
 	display: inline;
 	
 }
+.home-navigationBar>li>a{
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif; 
+	font-style: italic;
+	color: #ffffff;
+	margin-left: 20px;
+	
+	text-align: right;
+}
 
+.home-navigationBar>li>a:hover{
+	text-decoration: none;
+	color: #FF1493;
+}
 .navigationBar>li>a{
 	color: #000000;
 	font-weight: 400;
