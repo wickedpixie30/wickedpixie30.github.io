@@ -38,10 +38,15 @@ body {
 	position:relative;
 }
 #content {
-	width: 100%;
+	width: 70%;
 	padding:0px;
 	/*padding-bottom:80px;  Height of the footer element */
+	
 }
+#page-content{
+
+}
+
 #footer {
 	background:#ffffff;
 	width:100%;
@@ -135,6 +140,9 @@ li{
 }
 
 /*-------- Homepage images/projects --------*/
+.project-links>{
+	
+}
 
 .project-links>a>img:hover{
 	border:2px solid #19bca2;
@@ -187,4 +195,8 @@ font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 
+}
+
+#project-gallery>img:hover{
+	border: 2px solid #19bca2;
 }
